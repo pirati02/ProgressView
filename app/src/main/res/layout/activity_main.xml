@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <baqari.dev.com.progresview.ProgressView
+        android:id="@+id/progress_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:bgColor="#e1e1e1"
+        app:fgColorEnd="#5e00ff"
+        app:fgColorStart="#e100ff"
+        app:percent="54"
+        app:gradient="radial"
+        app:startAngle="0"
+        app:strokeWidth="20dp" />
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seek_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
